@@ -1,0 +1,344 @@
+    1  /cita/local/bin/passwd 
+    2  exit
+    3  pwd
+    4  exit
+    5  ssh badger
+    6  exit
+    7  whoami
+    8  HOSTNAME
+    9  hostname
+   10  host
+   11  user
+   12  who
+   13  echo $0
+   14  exit
+   15  ls
+   16  pwd
+   17  exit
+   18  module 
+   19  module load python/3.10.2
+   20  ./script.py
+   21  pwd
+   22  cd /mnt
+   23  ls
+   24  cd scratch-lustre/
+   25  ls
+   26  cd kwong/
+   27  ls
+   28  cd gauss2d/
+   29  ls
+   30  cd gauss2d/
+   31  ls
+   32  ./script.py
+   33  head -1 plot.py
+   34  ./plot.py 
+   35  ./plot.py < data.txt
+   36  ./plot.py data.txt
+   37  python plot.py
+   38  cat plot.py
+   39  ./gauss2d | .plot.py
+   40  ./gauss2d | ./plot.py
+   41  chmod u+x plot.py
+   42  pwd
+   43  ./plot.py 
+   44  ./plot.py data.txt 
+   45  module load python/2.7.12
+   46  ./plot.py 
+   47  ls
+   48  more a.out
+   49  file a.out 
+   50  ./gauss2d | ./plot.py 
+   51  ./plot.py data.txt 
+   52  ./plot.py < data.txt 
+   53  module load gcc/5.4.0
+   54  ls
+   55  file gauss2d
+   56  cat data.txt 
+   57  ./plot.py data.txt 
+   58  module load python
+   59  module list
+   60  logout
+   61  ls
+   62  ssh lobster
+   63  ls
+   64  cd Documents
+   65  ls
+   66  cd ..
+   67  ls
+   68  pwd
+   69  cd Documents
+   70  pwd
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd
+   75  ls
+   76  cd Public
+   77  ls
+   78  cd ..
+   79  cd cta200
+   80  ssh lobster
+   81  cd /home/cta200
+   82  pwd
+   83  ls
+   84  cd repos
+   85  ls
+   86  find
+   87  find -name git2d
+   88  find -name
+   89  find -name git
+   90  find -name gauss2d
+   91  find -name 'gauss2d'
+   92  pwd
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd Research
+   97  ls
+   98  cd ~
+   99  ls
+  100  mkdir
+  101  mkdir --help
+  102  cp --help
+  103  cd /mnt
+  104  ls
+  105  pwd
+  106  cd scratch-lustre
+  107  ls
+  108  cd kwong
+  109  /ls
+  110  ls
+  111  pwd
+  112  ls
+  113  mkdir gauss2d
+  114  ls
+  115  pwd
+  116  cd gauss2d
+  117  ls
+  118  pwd
+  119  src
+  120  
+  121  cp -av
+  122  cp -av /home/cta200/Rsearch/gauss2d /mnt/scratch-lustre/kwong/gauss2d
+  123  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/kwong/gauss2d
+  124  pwd
+  125  ls
+  126  cd gauss2d
+  127  ls
+  128  less gauss2d.cc
+  129  more gauss2d.cc
+  130  cat gauss2d.cc
+  131  cat Makefile 
+  132  ls --help
+  133  ls -a
+  134  ls --help
+  135  ls -Z
+  136  ls --lcontext
+  137  vim plot.py 
+  138  gedit plot.py 
+  139  vim plot.py 
+  140  g++ gauss2d.cc 
+  141  ls 
+  142  ls -lt
+  143  g++ gauss2d.cc -o gauss2d
+  144  ls
+  145  ls -lt
+  146  exe gauss2d
+  147  ls
+  148  gauss2d
+  149  gauss2d.exe
+  150  g++ gauss2d.cc -o gauss2d
+  151  g++ --help
+  152  gauss2d
+  153  gauss2d.exe
+  154  gauss2d
+  155  ./gauss2d > data.txt
+  156  gauss2d
+  157  gauss2d.txt
+  158  gauss2d.exe
+  159  ls
+  160  gauss2d
+  161  ls -lt
+  162  ls -l
+  163  file gauss2d
+  164  gauss2d
+  165  gauss2d run
+  166  ./gauss2d
+  167  less data.txt
+  168  module python/2.7.12
+  169  module load
+  170  module
+  171  module load
+  172  module
+  173  module --help
+  174  pw
+  175  pwd
+  176  cd ..
+  177  cd
+  178  ls
+  179  cd /mnt
+  180  ls
+  181  cd scratch-lustre/
+  182  ls
+  183  cd kwong
+  184  ls
+  185  cd gauss2d/
+  186  ls
+  187  pwd
+  188  cd gauss2d/
+  189  pwd
+  190  ls
+  191  module load
+  192  module
+  193  ./script.py
+  194  pwd
+  195  ls
+  196  cd ..
+  197  pwd
+  198  cp -av ./gauss2d .
+  199  module
+  200  module load python/2.7.12
+  201  module
+  202  module python/3.10.2
+  203  ssh cosmo3
+  204  logout
+  205  cd /mnt
+  206  ls
+  207  cd scratch-lustre/kwong/gauss2d/gauss2d
+  208  pwd
+  209  ls
+  210  module load python
+  211  module load python/3.10.2
+  212  module list
+  213  ./plot.py data.txt 
+  214  exit
+  215  ssh cosmo3
+  216  ssh -x cosmo3
+  217  exit
+  218  cd /mnt/scratch-lustre/kwong/gauss2d/gauss2d
+  219  pwd
+  220  ls
+  221  ./plot.py < data.txt 
+  222  module load python/3.10.2
+  223  ./plot.py < data.txt 
+  224  pip install matplotlib
+  225  ./plot.py < data.txt 
+  226  pip install pyqt5
+  227  ./plot.py < data.txt 
+  228  cat ./plot.py 
+  229  vi
+  230  vi plot.py 
+  231  exit
+  232  ssh -x cosmo3
+  233  exit
+  234  ssh -X -Y cosmo3
+  235  cd /mnt/scratch-lustre/kwong
+  236  cd gauss2d/gauss2d/
+  237  pwd
+  238  ls -la
+  239  module list
+  240  module load python
+  241  ./plot.py data.txt 
+  242  git version
+  243  cd /mnt/scratch-lustre/kwong/
+  244  mkdir ./CITA200_2023
+  245  /pwd
+  246  pwd
+  247  cd CITA200_2023/
+  248  pwd
+  249  ls
+  250  mkdir ./assignment_1
+  251  mkdir ./README.md
+  252  ls
+  253  vi README.md/
+  254  cat README.md/
+  255  cd ~
+  256  cd murray/
+  257  cd /home/murray
+  258  ls
+  259  cd ~
+  260  cd /mnt/scratch-lustre/kwong/
+  261  ls
+  262  mv ./CITA200_2023/ ./CTA200_2023
+  263  ls
+  264  cd /home/murray/
+  265  cp -av ./Hello_world.c /mnt/scratch-lustre/kwong/CTA200_2023/assignment_1/
+  266  cp -av ./Hello_world.py /mnt/scratch-lustre/kwong/CTA200_2023/assignment_1/
+  267  cd /mnt/scratch-lustre/kwong/
+  268  ls
+  269  cd CTA200_2023/
+  270  ls
+  271  cd assignment_1/
+  272  ls
+  273  mv Hello_world.c Hello_world_Wong.c
+  274  mv Hello_world.py Hello_world_Wong.py
+  275  ls
+  276  module load gcc
+  277  module list
+  278  gcc Hello_world_Wong.c
+  279  ls
+  280  ls -lt
+  281  file a.out 
+  282  rm a.out
+  283  ls
+  284  gcc Hello_world_Wong.c
+  285  ls
+  286  mv a.out Hello_world.x
+  287  ls
+  288  ./Hello_world.x 
+  289  ./Hello_world.py
+  290  module load python
+  291  ./Hello_world_Wong.py
+  292  more ./Hello_world_Wong.py 
+  293  vi Hello_world_Wong.py 
+  294  more Hello_world_Wong.py
+  295  vi Hello_world_Wong.py 
+  296  more Hello_world_Wong.py
+  297  more Hello_world_Wong.c
+  298  vi Hello_world_Wong.c
+  299  more Hello_world_Wong.c
+  300  ./Hello_world.c
+  301  ./Hello_world_Wong.c
+  302  ./Hello_world_Wong.py
+  303  ls
+  304  ls -a
+  305  ls -lt
+  306  module list
+  307  python --help
+  308  python ./Hello_world_Wong.py 
+  309  vi Hello_world_Wong.py 
+  310  python Hello_world_Wong.py 
+  311  vi Hello_world_Wong.py 
+  312  python Hello_world_Wong.py 
+  313  ./Hello_world.x > output_c.txt
+  314  ls
+  315  python ./Hello_world_Wong.py > output_python.txt
+  316  ls
+  317  more output_c.txt 
+  318  more output_python.txt 
+  319  rm output_c.txt 
+  320  rm Hello_world.x
+  321  gcc Hello_world_Wong.c
+  322  ls
+  323  mv ./a.out ./Hello_world.x
+  324  ls
+  325  ./Hello_world.x > output_c.txt
+  326  more output_c.txt 
+  327  history
+  328  history > history.txt
+  329  ls
+  330  cat history.txt 
+  331  rm history.txt 
+  332  rm README.md
+  333  cd ..
+  334  ls
+  335  more README.md/
+  336  rm README.md/
+  337  file README.md/
+  338  rmdir -d README.md/
+  339  rmdir README.md/
+  340  ls
+  341  cat > README.md
+  342  ls
+  343  cd assignment_1/
+  344  history > history.txt
